@@ -1,2 +1,2 @@
 #!/bun/bash
-gcc -S $CFILE -o 'echo $CFILE | cut -d. -f1'.s
+gcc -S $CFILE -o $(echo $CFILE | cut -d. -f1).s
