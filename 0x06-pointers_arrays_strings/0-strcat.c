@@ -12,7 +12,9 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int c = 0, c2;
+	int c, c2;
+
+	c = 0;
 
 	while (dest[c])
 		c++;
