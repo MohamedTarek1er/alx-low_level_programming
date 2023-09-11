@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - entry point
+ *
+ * Description: assign value 98 to an element of an array a
+ *
+ * Return: 0 (success)
+*/
+
 int main(void)
 {
 	int n;
